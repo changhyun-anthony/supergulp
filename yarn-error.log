@@ -1,0 +1,44 @@
+Arguments: 
+  /home/anthony/.nvm/versions/node/v10.23.0/bin/node /home/anthony/.nvm/versions/node/v10.23.0/bin/yarn add gulp -D
+
+PATH: 
+  /home/anthony/.vscode-server/bin/5d424b828ada08e1eb9f95d6cb41120234ef57c7/bin:/home/anthony/.nvm/versions/node/v10.23.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Python39/Scripts/:/mnt/c/Python39/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.0/libnvvp:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/MATLAB/R2020a/runtime/win64:/mnt/c/Program Files/MATLAB/R2020a/bin:/mnt/c/Program Files/MATLAB/R2019a/runtime/win64:/mnt/c/Program Files/MATLAB/R2019a/bin:/mnt/c/texlive/2019/bin/win32:/mnt/c/Program Files/Calibre2/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2020.1.2/:/mnt/c/Program Files/TortoiseGit/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/NULLSPACE-STUDIO/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Bandizip/:/mnt/c/Users/NULLSPACE-STUDIO/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/NULLSPACE-STUDIO/AppData/Local/atom/bin:/mnt/c/Users/NULLSPACE-STUDIO/AppData/Local/Microsoft/WindowsApps:/mnt/c/opencv/build/x64/vc15/bin:/mnt/c/Users/NULLSPACE-STUDIO/AppData/Local/GitHubDesktop/bin:/mnt/c/tools/Cmder
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  10.23.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /mnt/c/Users/NULLSPACE-STUDIO/Documents/dev/supergulp/package.json: Unexpected string in JSON at position 171
+      at JSON.parse (<anonymous>)
+      at /home/anthony/.nvm/versions/node/v10.23.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/anthony/.nvm/versions/node/v10.23.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/anthony/.nvm/versions/node/v10.23.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "supergulp",
+    "version": "1.0.0",
+    "description": "Learn Gulp by building an awesome development environment",
+    "author": "changhyun",
+    "license": "ISC"
+    "scripts": {
+      "dev": "gulp dev",
+      "build": "gulp build"
+    },
+    "devDependencies": {
+      "gulp": "^4.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
